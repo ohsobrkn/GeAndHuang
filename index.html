@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>恭喜你们退休啦！</title> <!-- 网页主标题 -->
+    <style>
+        /* CSS to center the typed text and set a background image */
+        body {
+            display: flex;
+            flex-direction: column; /* 让标题和打字效果垂直排列 */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background0001.jpg'); /* 替换为你想要的背景图片 URL */
+            background-size: cover;
+            background-position: center;
+            color: white; /* 调整文字颜色以适应背景 */
+            text-align: center; /* 让所有文字居中 */
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px; /* 控制主标题与副标题之间的间距 */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* 增加文字阴影 */
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 30px; /* 控制副标题与打字效果之间的间距 */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* 增加文字阴影 */
+        }
+        #typedjs1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* 增加文字阴影，提高可读性 */
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/Justlovesmile/CDN/js/typed.js"></script>
+</head>
+<body>
+    <!-- 主标题 -->
+    <h1>欢迎来到我的世界</h1>
+
+    <!-- 副标题 -->
+    <h2>记录生活的点滴，与你一起走过</h2>
+
+    <!-- 打字效果 -->
+    <strong id="typedjs1"></strong>
+
+    <script>
+        var typed = new Typed("#typedjs1", {
+            strings: ['醒亦念卿，梦亦念卿','频繁记录，只因生活和你太值得❤'],
+            startDelay: 0,
+            typeSpeed: 200,
+            backSpeed: 100,
+            loop: true,
+            showCursor: true,
+            shuffle: false
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
